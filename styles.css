@@ -1,0 +1,63 @@
+body {
+    font-family:'Quicksand', sans-serif;
+    background-color: rgb(243, 232, 181);
+    padding: 40px;
+}
+
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(133, 85, 68);
+}
+
+.littletext {
+    font-size: 1px;
+}
+
+
+
+
+
+
+
+
+.color-list {
+    max-width: 350px;
+    margin: 30px auto;
+    padding:-1;
+    list-style: circle;
+    margin-left: -60px;
+}
+
+.color-list li {
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    margin: 20px 50;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background 0.1s, color 0.1s;
+}
+
+.gray:hover { background: gray; transform: translateX(3px); color:rgb(255, 255, 255); }
+.brown:hover { background: rgb(66, 29, 8); transform: translateX(3px); color:rgb(255, 255, 255); }
+.maroon:hover { background: maroon; transform: translateX(3px); color:rgb(255, 255, 255); }
+.orange:hover { background: rgb(255, 115, 0); transform: translateX(3px); color:rgb(255, 255, 255); }
+.hotpink:hover { background: rgb(255, 101, 178); transform: translateX(3px); color:rgb(255, 255, 255); }
+.warmbeige:hover { background: #f1c27d; transform: translateX(3px); color:rgb(243, 243, 243); }
+.sagegreen:hover { background: #a0bd81; transform: translateX(3px); color:rgb(255, 255, 255); }
+.teal:hover { background: teal; transform: translateX(3px); color:rgb(255, 255, 255); }
+.purple:hover { background: purple; transform: translateX(3px); color:rgb(255, 255, 255); }
+.lavender:hover { background: rgb(204, 130, 233); transform: translateX(3px); color:rgb(255, 255, 255); }
+
+ul li span {
+    margin-left:20px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color:inherit;
+}
